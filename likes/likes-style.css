@@ -1,0 +1,26 @@
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes-box{
+    border: 2px solid black;
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+/* .box-details{
+    border: 2px solid pink;
+} */
+.likes{
+    gap: 10px;
+   
+
+}
+button{
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}

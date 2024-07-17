@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: fit-content;
+    margin: 0 auto;
+}
+nav{
+    
+    background-color: black;
+    height: 50px;
+    color: whitesmoke;
+    padding: 5px;
+
+}
+.feed-header{
+    text-align: center;
+}
+.main-section{
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.user-section{
+    flex: 1;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.image{ 
+    font-size: 90px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 81px;
+    width: 86px;
+    margin: 0 auto;
+}
+.user-info{
+    padding-top: 20px;
+}
+
+
+.feed-section{
+    flex: 2;
+  
+
+    
+}
+/* .feed-section >*{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+} */
+
+.likes-box{
+    border: 2px solid black;
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.feed-box{
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* .box-details{
+    border: 2px solid pink;
+} */
+.likes{
+    gap: 10px;
+
+}
+button{
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
+a{
+    color: blue;
+}

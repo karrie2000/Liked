@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="network-style.css" />
+    <link rel="network" href="network.html" />
+  </head>
+  
+  <body>
+    <div class="container">
+      <nav>
+        <h2>Network</h2>
+      </nav>
+      <h2 class="feed-header">Your Feed</h2>
+      <div class="main-section d-flex">
+        <section class="user-section">
+          <!--insert image-->
+          <div class="image"><i class="bi bi-person-fill"></i></div>
+          <div class="user-info">
+            <a href="#">Add an avatar</a>
+            <h2>James Doe</h2>
+          </div>
+        </section>
+        <!--Feed section -showing likes and comments from users -->
+        <section class="feed-section">
+          <!--neil m comment-->
+          <div class="feed-box">
+            <div class="box-details d-flex">
+              <h2>Neil M</h2>
+              <div class="likes d-flex">
+                <h3><span id="neil-like">9</span> like(s)</h3>
+                <button class="likeButton" onclick="incrementLikes('neil-like')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p>
+              I just set up this new discord bot, let me know what you all think.
+              <a href="#">link</a>
+            </p>
+          </div>
+          <div class="feed-box">
+            <!--nichole k comment-->
+            <div class="box-details d-flex">
+              <h2>Nichole K</h2>
+              <div class="likes d-flex">
+                <h3><span id="nicole-like">12</span> like(s)</h3>
+                <button class="likeButton" onclick="incrementLikes('nicole-like')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p>Just fininished my <a href="#">next comic</a>, chech it out.</p>
+          </div>
+          <div class="feed-box">
+            <!--jim r comment-->
+            <div class="box-details d-flex">
+              <h2>Jim R</h2>
+              <div class="likes d-flex">
+                <h3><span id="jim-like">9</span> like(s)</h3>
+                <button class="likeButton" onclick="incrementLikes('jim-like')">
+                  Like
+                </button>
+              </div>
+            </div>
+            <p>
+              I can't stop listening to the <a href="#">new album</a>. Who else is
+              liking it?
+            </p>
+          </div>
+        </section>
+      </div>
+      <script src="network-script.js"></script>
+    </div>
+  </body>
+</html>
